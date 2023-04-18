@@ -9,16 +9,43 @@
   <title>Drum Kit Exercise</title>
 </head>
 <body>
-  <ul>
-    <li><kbd data-key="KeyA">A</kbd></li>
-    <li><kbd data-key="KeyS">S</kbd></li>
-    <li><kbd data-key="KeyD">D</kbd></li>
-    <li><kbd data-key="KeyF">F</kbd></li>
-    <li><kbd data-key="KeyG">G</kbd></li>
-    <li><kbd data-key="KeyH">H</kbd></li>
-    <li><kbd data-key="KeyJ">J</kbd></li>
-    <li><kbd data-key="KeyK">K</kbd></li>
-    <li><kbd data-key="KeyL">L</kbd></li>
+  <ul class="key">
+    <li class="key-item">
+      <kbd class="key-item__letter" data-key="KeyA">A</kbd>
+      <span class="key-item__title">clap</span>
+    </li>
+    <li class="key-item">
+      <kbd class="key-item__letter" data-key="KeyS">S</kbd>
+      <span class="key-item__title">hihat</span>
+    </li>
+    <li class="key-item">
+      <kbd class="key-item__letter" data-key="KeyD">D</kbd>
+      <span class="key-item__title">kick</span>
+    </li>
+    <li class="key-item">
+      <kbd class="key-item__letter" data-key="KeyF">F</kbd>
+      <span class="key-item__title">openhat</span>
+    </li>
+    <li class="key-item">
+      <kbd class="key-item__letter" data-key="KeyG">G</kbd>
+      <span class="key-item__title">boom</span>
+    </li>
+    <li class="key-item">
+      <kbd class="key-item__letter" data-key="KeyH">H</kbd>
+      <span class="key-item__title">ride</span>
+    </li>
+    <li class="key-item">
+      <kbd class="key-item__letter" data-key="KeyJ">J</kbd>
+      <span class="key-item__title">snare</span>
+    </li>
+    <li class="key-item">
+      <kbd class="key-item__letter" data-key="KeyK">K</kbd>
+      <span class="key-item__title">tom</span>
+    </li>
+    <li class="key-item">
+      <kbd class="key-item__letter" data-key="KeyL">L</kbd>
+      <span class="key-item__title">tink</span>
+    </li>
   </ul>
   <!-- Audio media -->
   <audio data-key="KeyA" src="media/audio/clap.wav"></audio>
