@@ -20,5 +20,5 @@ const keyStyle = (value) => {
 }
 
 function removeTransition () {
-  this.classList.remove('key-item--play')
+  this.classList.remove('key-item--play');
 }
