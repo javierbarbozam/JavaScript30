@@ -1,0 +1,90 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	background-color: rgb(37, 37, 37)
+}
+
+.clock-container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.clock {
+	border: solid rgb(214, 214, 214) 15px;
+	height: 600px;
+	width: 600px;
+	padding: 10px;
+	border-radius: 100%;
+	position: relative;
+}
+
+.prueba {
+	height: 300px;
+	width: 50%;
+}
+
+.clock-hand {
+	height: 15px;
+	background-color: rgb(214, 214, 214);
+	width: 49%;
+	transform-origin: 100% 50%;
+	position: absolute; 
+	z-index: 1;
+	top: 50%;
+	left: 6px;
+	transform: translateY(-50%) rotate(90deg);
+	box-shadow: -2px 1px 6px 3px rgba(0,0,0,0.15);
+	-webkit-box-shadow: -2px 1px 6px 3px rgba(0,0,0,0.15);
+	-moz-box-shadow: -2px 1px 6px 3px rgba(0,0,0,0.15);
+}
+
+.clock-hand--sec {
+	height: 10px;
+	background-color:rgb(172, 29, 29);
+	z-index: 0;
+}
+
+.clock-hand--min {
+	height: 10px;
+	background-color:rgb(172, 29, 29);
+} 
+
+/*
+html {
+	background-color: rgb(37, 37, 37)
+}
+
+.clock {
+	width: 30rem;
+	height: 30rem;
+	border: 20px solid white;
+	border-radius: 50%;
+	margin: 50px auto;
+	position: relative;
+	padding: 2rem;
+	box-shadow: 1px 2px 15px 12px rgba(0,0,0,0.25);
+	-webkit-box-shadow: 1px 2px 15px 12px rgba(0,0,0,0.25);
+	-moz-box-shadow: 1px 2px 15px 12px rgba(0,0,0,0.25);
+}
+
+.clock-face {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform: translateY(-3px);
+}
+
+.hand {
+	width: 50%;
+	height: 6px;
+	background: black;
+	position: absolute;
+	top: 50%;
+	transform: rotate(90deg);
+	transform-origin: 100%;
+} */
